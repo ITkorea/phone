@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def list
+  	@number = Number.all
   end
 
   def add
